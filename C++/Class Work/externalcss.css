@@ -1,0 +1,16 @@
+h1{
+border-style: black;
+font-family: cursive;
+border-spacing: 2px;
+border: 3px;
+background-color:red;
+text-align: center;
+}
+div{
+
+border: 4px;
+text-align: left;
+background-color: yellow;
+border: 2px;
+
+}
