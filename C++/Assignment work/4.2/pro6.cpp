@@ -20,9 +20,10 @@ void data()
 class batsman : public cricketer{
 
 public:
+	void score()
 	{
 	
-	cout<<"Total Runs of Team : ";
+	cout<<"Total Runs of Team :  ";
 	cin>>tot;
 	cout<<"Average Run : ";
 	cin>>avg;
@@ -31,16 +32,16 @@ public:
 }
 	void display()
 	{
-		cout<<"Total Runs : "<<tot;
-		cout<<"Average Run : "<<avg;
-		cout<<"Best Performance : "<<be;
+		cout<<"\nTotal Runs :  "<<tot;
+		cout<<"\nAverage Run : "<<avg;
+		cout<<"\nBest Performance : "<<be;
 	}
 	
 };
 
 
 
-int main
+int main()
 {
 	batsman obj;
 	obj.display();	

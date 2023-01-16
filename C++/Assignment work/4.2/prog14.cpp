@@ -1,39 +1,33 @@
 #include<iostream>
 using namespace std;
-class max{
+
+class Large{
 	private:
-	 int a,b;
-		friend int number(data)
+		int i,j;
 		public:
-		{
-			cout<<"Enter A : ";
-			cin>>a;
-			cout<<"Enter B : ";
-			cin>>b;
+		void input(){
+			cout<<"Enter A: ";
+			cin>>i;
+			cout<<"Enter B: ";
+			cin>>j;
 		}
-	
-		
+		friend void data(Large t);
 };
-
-int data(max o)
-{
-	if(o.a>o.b)
+void data(Large t){
+	if(t.i>t.j)
 	{
-		cout<<"Largest number is : "<<o.a;
+		
+		cout<<"\nLargest number is: " <<t.i;
 	}
-	else
-	{
-		cout<<"Largest number is : "<<o.b;
+	else {
+		cout<<"\nLargest number is: " <<t.j;
 	}
+	
 }
-
-
-
-
 int main()
 {
-	max o;
-	o.number();
-	data(o);
+	Large t;
+	t.input();
+	data(t);
 	return 0;
 }
