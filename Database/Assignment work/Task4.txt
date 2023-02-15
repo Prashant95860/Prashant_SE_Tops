@@ -1,0 +1,34 @@
+CREATE TABLE SALESPERSON (PKSNO INT NOT NULL,
+                         SNAME VARCHAR(20) NOT NULL,
+                          CITY VARCHAR(20) NOT NULL,
+                          COMM VARCHAR(20) NOT NULL
+                         );
+
+INSERT INTO salesperson(PKSNO,SNAME,CITY,COMM) VALUES ("1001","PEEL","LONDON","0.12"),
+("1002","SERRES","SAN JOSE","0.13"),
+("1004","MOTIKA","LONDON","0.11"),
+("1007","RAFKIN","BARCELONA","0.15"),
+("1003","AXELROD","NEW YORK","0.01");
+
+CREATE TABLE CUSTOMER (PKCNM INT NOT NULL,
+                       CNAME VARCHAR(20) NOT NULL,
+                       CITY VARCHAR(20) NOT NULL,
+                       RATING INT NOT NULL,
+                       FKSNO INT NOT NULL);
+
+INSERT INTO customer (PKCNM,CNAME,CITY,RATING,FKSNO) VALUES("201","HOFFAMAN","LONDON","100","1001"),
+("202","GIOVANN","EROE","200","1003"),
+("203","LIU","SAN JOSE","300","1002"),
+("204","GRASS","BARCELONA","100","1002"),
+("206","CLEMENS","LONDON","300","1007"),
+("207","PEREIRA","ROE","100","1004");
+
+
+
+a)SELECT * FROM salesperson WHERE PKSNO>1000;
+b)SELECT * from salesperson WHERE SNAME OR CITY ='LONDON' OR Comm>0.12;
+c)SELECT * from salesperson WHERE SNAME OR CITY ='LONDON' OR CITY='BARCELONA';
+d)SELECT * from salesperson WHERE SNAME OR Comm BETWEEN 0.10 AND 0.12;
+e)SELECT * FROM customer WHERE RATING<=100 OR CITY="Rome";
+
+                     

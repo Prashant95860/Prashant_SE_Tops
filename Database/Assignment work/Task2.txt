@@ -1,0 +1,16 @@
+create TABLE Info(FirstName Varchar(20) NOT null,
+LastName varchar(20) NOT null,
+Adress varchar(40) NOT null,
+City varchar(20) NOT null,
+Age int NOT null);
+
+
+INSERT INTO info (FirstName,LastName,Adress,City,Age) VALUES ("Mickey","Mouse","123Fantasy Way","Anaheim","73"),
+("Bat","Man","321Cavern Ave","Gotham","54"),
+("Wonder","Woman","987Truth Way","Paradise","39"),
+("Donald","Duck","555 Quack Street","Mallard","65"),
+("Bugs","Bunny","567 Carrot Street","Rascal","58"),
+("Willey","Coyote","999 Acme Way","Canyon","61"),
+("Cat","Woman","234 Purrfect Street","Hairball","32"),
+("Tweety","Bird","543","Itotltaw","28");
+
