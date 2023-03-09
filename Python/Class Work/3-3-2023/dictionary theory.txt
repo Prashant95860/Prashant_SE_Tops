@@ -1,0 +1,13 @@
+Dictionary : Dictionary is contain data type which is contain key and values in a pair
+
+list - []
+tuple - ()
+set - {}
+dictionary {}
+
+dictionary contain only unique keys.
+
+dict = {
+"key1" : "value",
+"key12" : "value"
+} 
