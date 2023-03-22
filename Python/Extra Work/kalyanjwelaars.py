@@ -21,6 +21,8 @@ print("Discount-Amount except (making charges : ",dis)
 print("*"*50)
 pur = rate+charge-dis
 print("Total Net Amount : ",pur)
+
+
 if gen==m and age>65 and pur>21000:
     extra1 = pur*20/100
     amt = pur-extra1
@@ -35,7 +37,7 @@ elif gen==m and age>65 and pur>51000:
     print("Discount 50% extra =  ",extra1)
     print("Net Payble : ",amt)
 
-elif gen==f and age>65 and pur>21000:
+if gen==f and age>65 and pur>21000:
     extra1 = pur*25/100
     amt = pur-extra1
     print("Discount 25% extra =  ",extra1)
@@ -53,19 +55,19 @@ elif gen==f and age>65 and pur>51000:
     print("Discount 40% extra =  ",extra1)
     print("Net Payble : ",amt)
 
-elif age>65 and pur>21000:
+if age<65 and pur>21000:
     extra1 = pur*15/100
     amt = pur-extra1
     print("Discount 15% extra =  ",extra1)
     print("Net Payble : ",amt)
 
-elif age>65 and pur>31000:
+elif age<65 and pur>31000:
     extra1 = pur*25/100
     amt = pur-extra1
     print("Discount 25% extra =  ",extra1)
     print("Net Payble : ",amt)
 
-elif age>65 and pur>51000:
+elif age<65 and pur>51000:
     extra1 = pur*30/100
     amt = pur-extra1
     print("Discount 30% extra =  ",extra1)

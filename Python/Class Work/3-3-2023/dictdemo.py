@@ -1,4 +1,5 @@
 student = {
+    #key      values
     "name" : "prashant",
     "subject" : "python",
     "marks" : 89

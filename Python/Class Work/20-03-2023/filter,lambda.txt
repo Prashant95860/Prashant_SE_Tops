@@ -1,0 +1,15 @@
+filter() : filter is a method which is filter given sequence with the help of function that test each elelment of the sequence.
+		Syntax : 
+
+				filter(function,sequence)
+
+
+
+
+lambda function :Function without any name is called lambda function.
+
+		Syntax: variable = lambda arguments : expression 
+			
+
+
+

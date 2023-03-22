@@ -1,0 +1,14 @@
+list and tuple:
+
+Both are collection type.
+
+list : list is a mutable data type which is contain data member in single location 
+	 which is contain simmilar and dis-simillar data elements at one location.
+	 list which is represent  by : []
+	 list which is indexable,orderable,mutable (change)
+
+tuple : tuple is a collection data type.
+	  tuple is indexable,orderable
+	  tuple is an immutable.
+	  tuple is presented by : ()
+		

@@ -1,0 +1,26 @@
+Function  : Function is a block of code that code are used to again and again.
+
+		Using of function we can reduce our code function provide reusabilities.
+
+Python : There are 2 steps to implement
+1) Function defination
+2) Function Calling 
+
+
+===========================================================================
+
+1) Function 
+	Syntax :
+		1)Function Defination : 	def functionname():
+		2)Function calling     :	functionname()
+
+
+=============================================================================
+
+Function Categories:
+	There are 4 types of categories
+
+1)function without parameters and without return type.
+2)function with parameters and without return type.
+3)function without parameters and with return type.
+4)function with parameters and with return type.

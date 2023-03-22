@@ -1,0 +1,17 @@
+"""
+There are 4 types of function categories
+
+1) Function withot parameter and function without return type
+
+syntax : def <functionnme>():
+
+        <functionname>()
+
+
+2) funnction with parameters and function without return type
+
+Syntax : def add(n1,n2)
+    //operation
+
+    def mul(n1,n2)
+    //operation
