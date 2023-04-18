@@ -1,0 +1,11 @@
+	Encapsulation : which is wrap data in single entity.
+
+			which protect data from outside the class
+getter and setter method
+
+getter method for get data and setter methid for set data.  	
+	
+
+
+
+

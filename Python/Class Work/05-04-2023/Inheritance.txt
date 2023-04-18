@@ -1,0 +1,16 @@
+Inheritance : one class derived properties of another class.
+
+	why we use inheritance:
+	inheritance provide reusabilities
+	using of inheritance we can reduce our code
+
+Inheritance Type:There are 5 types of inheritance
+
+1) Single level Inheritance : Parent & Child
+2) Multiple level Inheritance : Grand Parent & Parent & Child
+3) Multilevel Inheritance : One Child & Two Parent
+4) Hierarthical Inheritance : One parent & two child
+5) Hybrid Inheritance : 
+
+
+

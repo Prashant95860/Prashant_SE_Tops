@@ -1,0 +1,14 @@
+0OOPS : object oriented programming system
+
+class : which contain data member and member function in single entity its called class
+
+syntax : 
+	class <classname>
+	data member
+	member function
+
+object : onject is variable or instance of class
+
+syntax : 
+	obj = classname()
+

@@ -1,0 +1,15 @@
+polymorphism : one class derived properties of another class
+
+	ploy means many and morphism means forms
+	polymorphism which override method.
+
+	there are 2 types of polymorphism
+	1) method overloading
+	2) method overriding
+
+1) method overloading : one class have same name method but different arguments
+2) method overriding : one or two class have same name properties
+
+Note : python does not support method overloading.
+
+

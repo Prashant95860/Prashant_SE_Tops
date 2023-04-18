@@ -1,0 +1,22 @@
+Exception  : which distrub the normal flow of the program.
+
+		exception which is handle by try and except block
+
+		it called exception handling.
+ 		
+
+Exception syntax : 
+				try:
+					exception code
+				except:
+					statement
+
+
+try : 
+	exception block
+except:
+	after exception executable statement
+else:
+	without exception
+finaly:
+	it always occur

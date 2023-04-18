@@ -1,0 +1,19 @@
+Abstraction : to abstract something
+
+		to hide implementation
+for abstraction we have to import ABC class.
+
+abstarct class which contain one or more abstract method is called abstract class
+
+what is meaning of abstract method:
+
+which is represent only few information allocated background information
+
+syntax : 
+
+from abc import ABC
+ABC : Abstract Base Class
+
+
+
+

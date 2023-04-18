@@ -1,3 +1,3 @@
-s = "Avadh Gajera"
-print(s)
-print(s[::-1])
+from datetime import date
+
+c = date.today()
