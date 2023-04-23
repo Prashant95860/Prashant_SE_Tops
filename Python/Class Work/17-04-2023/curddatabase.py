@@ -19,5 +19,5 @@ mydb = pymysql.connect(host="localhost",user="root",password="",database="10feb_
 mycursor = mydb.cursor()
 
 # table creation
-mycursor.execute("create table if not exist student_db(id int primary key auto_increment,name varchar(20),subject varchar(20))")
-mydb.commit()
+mycursor.execute("create table if not exists student23(id int primary key auto_increment,name varchar(20),subject varchar(20))")
+mydb.commit()   
