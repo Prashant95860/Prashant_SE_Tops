@@ -1,0 +1,38 @@
+HTML : stands for hyper text markeup language
+
+html which is used to represent structure of webpage
+
+html contains tags
+
+there are 2 type of tags
+1) Singular tag
+2) Paired tag
+
+
+1) Singluar tag : There are 3 types of tag
+A) hr : horizontal row
+B) br : break
+C) img : for image display
+
+2) Paired tag : 
+
+<openingtags>.....content.......</closingtags>
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+<p> : paragraph tag
+
+<elementname attribute = "value"> content </closingelement>
+
+--------------------------------------------------------------------------------------
+
+
+Type of list
+
+1)ul - unorder list
+2)ol - order list
+3)dl - description list
+
+===============================
+li : list of items
